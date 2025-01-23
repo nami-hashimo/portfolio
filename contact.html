@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>NamiHashimo portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+      
+        <div class="logo">
+          <a href="index.html"><img src="img/logo-dog.png"></a>
+        </div>
+    
+        <nav>
+          <ul class="header-nav">
+              <li>
+                  <a  href="works.html">Works</a>
+              </li>
+              <li>
+                  <a  href="index.html">Services</a>
+              </li>
+              <li>
+                  <a  href="index.html">About</a>
+              </li> 
+          </ul>
+    
+    
+          
+    
+      </nav>
+    </header>
+    
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact</h2>
+        
+        <form class="form" action="mail.php" method="post">
+            <div class="form-item">
+              <p class="form-item-label"><span class="yohaku"></span>会社名</p>
+              <input name="会社名" type="text" class="form-item-input" placeholder="例）有限会社はしも">
+            </div>
+
+            <div class="form-item">
+              <p class="form-item-label"><span class="form-item-label-required">必須</span>氏名</p>
+              <input name="氏名" type="text" class="form-item-input" placeholder="例）はしも&nbsp;&nbsp;なみ">
+            </div>
+
+            <div class="form-item">
+              <p class="form-item-label"><span class="yohaku"></span>電話番号</p>
+              <input name="電話番号" type="number" class="form-item-input" placeholder="例）000-0000-0000">
+            </div>
+
+            <div class="form-item">
+              <p class="form-item-label"><span class="form-item-label-required">必須</span>メールアドレス</p>
+              <input name="メールアドレス" type="email" class="form-item-input" placeholder="例）example@gmail.com">
+            </div>
+
+            <div class="form-item">
+              <p class="form-item-label ismsg">
+                <span class="form-item-label-required">必須</span>お問い合わせ内容</p>
+              <textarea name="お問合せ内容" class="form-item-textarea"></textarea>
+            </div>
+
+            <div class="btn"><a href="#" class="button">送信する</a></div>
+        </form>
+
+
+ <footer id="footer" class="footer">
+        <p class="copyright">&copy;NamiHashimo </p>
+      </footer>
+    <script src="script.js"></script>
+
+        
+</body>
+</html>
