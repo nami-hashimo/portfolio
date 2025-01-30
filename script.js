@@ -23,5 +23,6 @@ burger.addEventListener("click", () => {
 navLinks.forEach((link, index) => {
   link.addEventListener("click", () => {
     nav.classList.remove("nav-active")
+    burger.classList.remove("toggle")
   })
 });

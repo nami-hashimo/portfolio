@@ -94,6 +94,7 @@
     height: 3px;
     background-color: #000;
     margin: 5px;
+    transition: 0.3s;
   }
   @media screen and (max-width: 768px) {
     nav {
@@ -165,7 +166,7 @@
     opacity: 0;
   }
   .toggle .line3 {
-    transform: rotate(405deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -6px);
   }
 
   
@@ -181,6 +182,7 @@
     max-width: 1920px;
     height: auto;
     object-fit: cover;
+   
   }
 
   
@@ -227,8 +229,10 @@
   .works-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     padding: 70px 30px 30px;
+    // background-color: #ddd;
   }
   .works-content li {
     width: 30%;
@@ -296,6 +300,9 @@
     display: flex;
     align-items: center;
   }
+  .btn div {
+    margin: 0 auto;
+  }
   .button {
     display: inline-block;
     background-color: #D9D9D9;
@@ -303,11 +310,12 @@
     color: #fff;
     border-radius: 50px;
     padding: 12px 72px;
-    margin: 28px auto;
+    margin: 24px auto;
     text-decoration: none;
     font-size: 32px;     
     transition: all .3s ease 0s; 
   } 
+
   .button:hover {
     color: #5BEDC0;
     background-color: #807777;
@@ -325,6 +333,7 @@
     max-width: 1920px;    
     text-align: center;
     // padding: 0 50px;
+    margin-bottom: 32px;
   }
   .services .services-content {
     display: flex;
@@ -630,7 +639,7 @@
   .footer {
     background-color: #e8e8e9;
     padding: 30px 0;
-    margin: 300px 0 0;
+    margin: 150px 0 0;
   }
   .footer p {
     text-align: center;

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”description” content=”こちらはWEbサイト,ホームページ制作をお受けしている橋本奈美のportfolioです。 Webサイト等の制作依頼をご検討の際はお気軽にお問合せください。” />
     <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style.css">
@@ -13,21 +14,46 @@
     <header class="header">
       
         <div class="logo">
-          <a href="index.html"><img src="img/logo-dog.png"></a>
+          <h1><a href="index.html"><img src="img/logo-dog.png" alt="NamiHashimoロゴわんこ"></a></h1>
         </div>
     
         <nav>
           <ul class="header-nav">
-              <li>
-                  <a  href="works.html">Works</a>
-              </li>
-              <li>
-                  <a  href="index.html">Services</a>
-              </li>
-              <li>
-                  <a  href="index.html">About</a>
-              </li> 
+            <li>
+              <a  href="works.html">Works</a>
+          </li>
+          <li>
+            <a  href="index.html#services">Services</a>
+          </li>
+          <li>
+              <a  href="contact.html">Contact</a>
+          </li> 
+          <li>
+            <a  href="index.html#about">About</a>
+          </li>  
           </ul>
+
+
+          <ul class="header-nav-sp">
+            <li>
+                <a  href="works.html">Works</a>
+            </li>
+            <li>
+                <a  href="index.html#servicse">Services</a>
+            </li>
+            <li>
+                <a  href="contact.html">Contact</a>
+            </li> 
+            <li>
+              <a  href="index.html#about">About</a>
+            </li>  
+        </ul> 
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+      
     
     
           
@@ -38,7 +64,7 @@
     <section id="contact" class="contact">
         <h2 class="section-title">Contact</h2>
         
-        <form class="form" action="https://ssgform.com/s/38irLChmTPAq" method="post">
+        <form class="form" action="mail.php" method="post">
             <div class="form-item">
               <p class="form-item-label"><span class="yohaku"></span>会社名</p>
               <input name="会社名" type="text" class="form-item-input" placeholder="例）有限会社はしも">
@@ -65,14 +91,15 @@
               <textarea name="お問合せ内容" class="form-item-textarea"></textarea>
             </div>
 
-             <div class="btn"><input type="submit" value="送信する" class="button"></div>
+            <div class="btn"><input type="submit" value="送信する" class="button"></div>
         </form>
+    </section>
 
 
  <footer id="footer" class="footer">
         <p class="copyright">&copy;NamiHashimo </p>
-      </footer>
-    <script src="script.js"></script>
+ </footer>
+ <script src="script.js"></script>
 
         
 </body>
